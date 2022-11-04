@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  /* выравнивание текста left, right, justify, center */
+  text-align: center;
+}
+
+body {
+  font-family: "Play", sans-serif;
+  font-size: 14px;
+}
+
+body .header,
+.footer,
+.main-wrapper {
+  text-align: center;
+}
+
+.page-body {
+  max-width: 1920px;
+}
+
+.header {
+  padding: 0.25em;
+  background: rgba(134, 48, 48, 1);
+}
+
+.header h2 {
+  color: white;
+}
+
+.carousel {
+  width: 45vw;
+  /* height: 45vh; */
+  object-fit: cover;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3em;
+}
+
+.carousel-control-prev {
+  height: 4em;
+  width: 4em;
+  margin-top: 50%;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 1.5em;
+}
+
+.carousel-control-next {
+  height: 4em;
+  width: 4em;
+  margin-top: 50%;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
