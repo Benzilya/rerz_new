@@ -1,0 +1,31 @@
+span.beige,
+span.clear,
+span.color,
+span.color-1,
+span.grey {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+span.beige {
+  background-color: #d8d7d7;
+  border: 1px solid #c8c6c6;
+  color: #000;
+}
+span.grey {
+  background-color: #313131;
+  border: 1px solid #d8d7d7;
+  color: #fff;
+}
+span.clear {
+  background-color: #fff;
+  border: 1px solid #d8d7d7;
+  color: #000;
+}
+blockquote {
+  background: transparent url(quoleft.gif) no-repeat 0 0;
+}
+blockquote div {
+  background: transparent url(quoright.gif) no-repeat right bottom;
+  padding: 0 30px;
+}

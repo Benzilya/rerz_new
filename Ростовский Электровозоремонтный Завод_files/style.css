@@ -1,0 +1,8 @@
+#thumb a img {
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+#thumb a:hover img {
+  -moz-opacity: 1;
+  opacity: 1;
+}
